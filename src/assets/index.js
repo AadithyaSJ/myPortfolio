@@ -42,7 +42,7 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 import ecom from './ecom.png';
-import speech from "./speech.png";
+import speech from "./Speech.png";
 import encr from "./encr.png";
 import carsim from "./carsim.png";
 import bikeass from "./bikeass.png";
@@ -51,7 +51,7 @@ import tvs from "./tvs.png";
 import her from "./her.jpeg";
 import tro from "./tro.jpeg";
 
-import aadithya from "./aadithya.png";
+import aadithya from "./Aadithya.png";
 import bullbear from "./bullbear.png";
 import ecommerce from "./ecommerce.png";
 import superr from "./superr.png";
