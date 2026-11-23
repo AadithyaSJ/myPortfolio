@@ -67,7 +67,7 @@ const Hero = () => {
       <div className="absolute inset-0 bg-[linear-gradient(to_right,rgba(255,255,255,0.025)_1px,transparent_1px),linear-gradient(to_bottom,rgba(255,255,255,0.025)_1px,transparent_1px)] bg-[size:5rem_5rem] [mask-image:radial-gradient(ellipse_75%_60%_at_50%_40%,#000_50%,transparent_100%)] pointer-events-none z-0" />
 
       <div className="max-w-7xl mx-auto px-6 sm:px-12 w-full grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center z-10">
-        
+
         {/* Left Column: Typography & Narrative (Nix Rajput Style) */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
@@ -203,20 +203,7 @@ const Hero = () => {
           >
             <div className="relative rounded-[31px] bg-[#0c0919] overflow-hidden">
               {/* Inner Architectural Header Strip */}
-              <div className="relative z-20 flex items-center justify-between px-5 py-3.5 border-b border-white/5 bg-[#0e0a1f]/60 backdrop-blur-md">
-                <div className="flex items-center gap-2">
-                  <div className="flex gap-1.5">
-                    <span className="w-2.5 h-2.5 rounded-full bg-red-500/40" />
-                    <span className="w-2.5 h-2.5 rounded-full bg-yellow-500/40" />
-                    <span className="w-2.5 h-2.5 rounded-full bg-green-500/40" />
-                  </div>
-                  <span className="font-mono text-[10px] text-white/40 tracking-wider ml-1">PORTFOLIO // DEV-CORE</span>
-                </div>
-                <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/30 text-emerald-400 text-[11px] font-mono">
-                  <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                  Available
-                </div>
-              </div>
+
 
               {/* Backdrop Depth Canvas: Illuminated Circular Portal */}
               <div className="absolute inset-0 flex items-center justify-center pointer-events-none">
@@ -235,31 +222,7 @@ const Hero = () => {
               </div>
 
               {/* Bottom Frosted Glass HUD Tray */}
-              <div className="relative z-20 -mt-10 pt-8 pb-4 px-5 bg-gradient-to-t from-[#080512] via-[#080512]/95 to-transparent border-t border-white/5">
-                <div className="flex items-center justify-between">
-                  <div>
-                    <h3 className="text-white text-[15px] font-semibold tracking-tight">Aadithya S J</h3>
-                    <p className="text-white/45 text-[11px] font-mono mt-0.5">Chennai, IN • Full-Stack & AI</p>
-                  </div>
-                  <div className="flex items-center gap-1.5 px-2.5 py-1 rounded-full bg-emerald-500/10 border border-emerald-500/25 text-emerald-400 text-[10px] font-mono font-medium">
-                    <span className="w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse" />
-                    Available Q1 2026
-                  </div>
-                </div>
 
-                {/* Micro Tech Tags Ribbon */}
-                <div className="mt-3 pt-2.5 border-t border-white/5 flex items-center justify-between text-[10px] font-mono text-white/35">
-                  <span>LANGGRAPH</span>
-                  <span>•</span>
-                  <span>DJANGO</span>
-                  <span>•</span>
-                  <span>FASTAPI</span>
-                  <span>•</span>
-                  <span>REACT</span>
-                  <span>•</span>
-                  <span>POSTGRESQL</span>
-                </div>
-              </div>
             </div>
           </Tilt>
 
